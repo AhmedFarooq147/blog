@@ -2,7 +2,6 @@
 import React, { useState } from "react"
 import Swal from 'sweetalert2'
 
-
 export default function Contact() {
     const [name, setname] = useState('')
     const [email, setemail] = useState('')
