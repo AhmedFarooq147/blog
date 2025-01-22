@@ -4,12 +4,6 @@ import Swal from 'sweetalert2'
 
 
 export default function Contact() {
-    interface FormData {
-        name: string;
-        email: string;
-        subject: string,
-        message: string;
-    }
     const [name, setname] = useState('')
     const [email, setemail] = useState('')
     const [subject, setsubject] = useState('')
